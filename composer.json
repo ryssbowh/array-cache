@@ -1,5 +1,5 @@
 {
-    "name": "ryssbowh/array-cache",
+    "name": "ryssbowh/laravel-array-cache",
     "description": "Helper to cache using dotted array keys in Laravel",
     "type": "library",
     "keywords": ["cache", "laravel"],
