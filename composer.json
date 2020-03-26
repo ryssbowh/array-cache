@@ -1,0 +1,20 @@
+{
+    "name": "ryssbowh/array-cache",
+    "description": "Helper to cache using dotted array keys",
+    "type": "library",
+    "keywords": ["cache", "laravel"],
+    "homepage": "https://github.com/ryssbowh/array-cache",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Boris blondin",
+            "email": "blondin.boris@gmx.com"
+        }
+    ],
+    "require": {
+        "illuminate/cache": "^5",
+    },
+    "autoload": {
+        "psr-4": {"Ryssbowh\\ArrayCache\\": "src/"}
+    }
+}
