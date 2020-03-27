@@ -3,7 +3,6 @@
 namespace Ryssbowh\ArrayCache;
 
 use Illuminate\Support\ServiceProvider;
-use Ryssbowh\ArrayCache\ArrayCache;
 
 class ArrayCacheServiceProvider extends ServiceProvider
 {

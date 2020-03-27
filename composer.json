@@ -16,5 +16,8 @@
     },
     "autoload": {
         "psr-4": {"Ryssbowh\\ArrayCache\\": "src/"}
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^9.0"
     }
 }
