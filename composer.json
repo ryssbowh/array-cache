@@ -12,13 +12,13 @@
         }
     ],
     "require": {
-        "illuminate/cache": "^5"
+        "illuminate/cache": "^5.7|^5.8"
     },
     "autoload": {
         "psr-4": {"Ryssbowh\\ArrayCache\\": "src/"}
     },
     "require-dev": {
-        "orchestra/testbench": "^3.8"
+        "orchestra/testbench": "^3.7|^3.8"
     },
     "autoload-dev": {
         "psr-4": {

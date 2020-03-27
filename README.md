@@ -13,6 +13,8 @@ I have three cache keys `fields.object1.value1` , `fields.object1.value2` and  `
 calling `\ArrayCache::forget('fields.object1')` will forget `fields.object1.value1` and `fields.object1.value2`.
 calling `\ArrayCache::forget('fields')` will forget the 3 keys.
 
+This has been tested and used on Laravel 5.7 and 5.8 only.
+
 ## Available methods
 
 All methods for retrieving/forgetting keys from the Laravel cache repository are available
@@ -22,3 +24,5 @@ All methods for retrieving/forgetting keys from the Laravel cache repository are
 Install package through composer : `composer require ryssbowh/laravel-array-cache`
 
 Register the service provider `Ryssbowh\ArrayCacheServiceProvider`
+
+Add the facade `Ryssbowh\ArrayCache\Facade\ArrayCache`
