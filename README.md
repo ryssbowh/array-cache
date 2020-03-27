@@ -23,6 +23,6 @@ All methods for retrieving/forgetting keys from the Laravel cache repository are
 
 Install package through composer : `composer require ryssbowh/laravel-array-cache`
 
-Register the service provider `Ryssbowh\ArrayCacheServiceProvider`
+Register the service provider `Ryssbowh\ArrayCache\ArrayCacheServiceProvider`
 
 Add the facade `Ryssbowh\ArrayCache\Facade\ArrayCache`
