@@ -1,6 +1,6 @@
 <?php
 
-namespace Ryssbowh\ArrayCache;
+namespace Ryssbowh\ArrayCache\Facade;
 
 use Illuminate\Support\Facades\Facade;
 
