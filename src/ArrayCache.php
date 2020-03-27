@@ -30,6 +30,19 @@ class ArrayCache
     }
 
     /**
+     * Retrieve an item from the cache by key.
+     *
+     * @param string  $key
+     * @param mixed  $default
+     * 
+     * @return mixed
+     */
+    public function get($key, $default = null)
+    {
+        return \Cache::get($key, $default);
+    }
+
+    /**
      * Retrieve an item from the cache and delete it.
      *
      * @param string $key
@@ -133,19 +146,16 @@ class ArrayCache
     }
 
     /**
-     * Store an item in the cache.
+     * Retrieve multiple items from the cache by key.
      *
-     * @param string $key
-     * @param mixed  $value
-     * @param \DateTimeInterface|\DateInterval|int|null $ttl
-     * 
-     * @return bool
+     * Items not found in the cache will have a null value.
+     *
+     * @param  array  $keys
+     * @return array
      */
-    public function put($key, $value, $ttl = null): bool
+    public function many(array $keys)
     {
-        $this->addKey($key);
-
-        return \Cache::put($key, $value, $ttl);
+        return \Cache::many($keys);
     }
 
     /**
